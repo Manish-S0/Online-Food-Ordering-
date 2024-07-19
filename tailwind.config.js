@@ -8,7 +8,10 @@ export default {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('/src/assets/header_img.png')",
-      }
+      },
+      animation: {
+        'fade-in': 'fade-in 1s ease-in-out',
+      },
     },
   },
   plugins: [],
