@@ -2,16 +2,22 @@
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import { Outlet } from 'react-router-dom'
+import { useState } from 'react'
+import Login from '../components/Login'
 const MainHeader = () => {
+
+  const [login,setLogin] = useState(false)
+  
   return (
     <>
-    <Navbar/>
+    {login?<Login setLogin={setLogin}/>:<></>}
+    <Navbar setLogin={setLogin}/>
     <section>
       
       <Outlet/>
     </section>
     <Footer/>
-    
+     
     </>
   )
 }

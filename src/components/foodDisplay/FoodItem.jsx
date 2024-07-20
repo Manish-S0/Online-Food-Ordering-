@@ -11,6 +11,7 @@ const FoodItem = ({id,name,image,price,description}) => {
     <div className="w-full m-auto shadow-lg  hover:scale-105 duration-300 cursor-pointer">
       <div className="relative">
         <img src={image} alt="" className="w-full rounded"/>
+
         {!cartItems[id] ?
          <img onClick={() => addToCart(id)} src={assets.add_icon_white} alt="" className="cursor-pointer w-[30px] py-1 absolute bottom-1 right-2 rounded-full"/> : 
         <div className="flex gap-2 absolute bottom-1 right-2 rounded-full items-center px-1 bg-white">

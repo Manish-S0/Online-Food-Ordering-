@@ -12,7 +12,15 @@ export default {
       animation: {
         'fade-in': 'fade-in 1s ease-in-out',
       },
+      
     },
+    screens: {
+      'lg': {'max': '1300px'},
+      'md': {'max': '900px'},
+      'sm': {'max': '700px'},
+      'xs': {'max': '559px'},
+      'xxs': {'max': '400px'},
+    }
   },
   plugins: [],
 }
