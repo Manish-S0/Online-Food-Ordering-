@@ -4,7 +4,7 @@ const ExploreMenu = ({category,setCategory}) => {
   return (
     <>
     <div className='mx-10 mt-4'>
-      <h1 className='text-4xl'>Explore our Menu</h1>
+      <h1 className='text-4xl font-[500] text-[#303b3b]'>Explore our Menu</h1>
       <div className='flex justify-between  gap-5 text-center overflow-x-scroll mt-6'>
         {menu_list.map((menu) => (
 

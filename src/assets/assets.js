@@ -60,10 +60,14 @@ import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
 import logo_color from './logo_color.png'
+import about_img from './about_img1.jpg'
+import inverted_comma from './inverted-commas.png'
+import first_res from './first_res.jpg'
+import contact_img from './contact_img.jpg'
 
 export const assets = {
     logo_color,
-    
+    about_img,
     basket_icon,
     header_img,
     search_icon,
@@ -81,7 +85,10 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+    inverted_comma,
+    first_res,
+    contact_img
 }
 
 export const menu_list = [

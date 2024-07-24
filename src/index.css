@@ -3,10 +3,8 @@
 @tailwind utilities;
 
 *{
-  scroll-behavior: smooth;
-  
+  scroll-behavior: smooth; 
 }
-
 @media (max-width: 1050px) {
   .navbar .logo{
     width: 140px;

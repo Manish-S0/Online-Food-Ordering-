@@ -39,7 +39,7 @@ const Cart = () => {
       </div>
       <div className='flex  mt-12 justify-between cart-bottom gap-10'>
         <div className='flex-1 flex-col gap-[20px] cart-total'>
-          <h2 className='font-[800] text-black'>Cart Total</h2>
+          <h2 className='font-[700] text-[#303b3b] mb-2'>Cart Total</h2>
           <div>
             <div className='flex justify-between cart-total-details'>
               <p>Subtotal</p>
@@ -62,7 +62,7 @@ const Cart = () => {
         </div>
         <div className='flex-1 cart-promocode'>
           <div>
-            <p>Promo Code</p>
+            <p className='font-[700] text-[#303b3b] mb-2'>Promo Code</p>
             <div>
               <input type="text" placeholder="enter promo code" id="" className='p-2 '/>
               <button className='bg-[#e06213]  py-2 px-5 text-white font-[500] rounded-md'>Apply</button>

@@ -8,7 +8,7 @@ const PlaceOrder = () => {
 
   return (
     
-    <form className='flex items-start justify-evenly  gap-[50px] mt-[100px] place-order mx-[100px]'>
+    <form className='flex items-start justify-evenly  gap-[50px] mt-[100px] place-order mx-[100px] text-[#303b3b]'>
       <div className='  place-order-left max-w-[40%]'>
         <p className='text-[30px] font-[600] mb-[40px] title'>Delivery Information</p>
         <div className='multifields flex gap-5'>
@@ -30,7 +30,7 @@ const PlaceOrder = () => {
         </div>
       </div>
       <div  className='flex-1 flex-col gap-[20px] place-order-right max-w-[30%] justify-between'>
-        <h2 className='text-[30px] font-[600] mb-[40px]'>Cart Total</h2>
+        <h2 className='text-[30px] font-[600] mb-[40px] text-[#303b3b]'>Cart Total</h2>
         <div>
           <div className='flex cart-total-details justify-between'>
             <p>Subtotal</p>
