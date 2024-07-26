@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('/src/assets/header_img.png')",
+        'contactImg': "url('/src/assets/contact_img.jpg')",
       },
       animation: {
         'fade-in': 'fade-in 1s ease-in-out',

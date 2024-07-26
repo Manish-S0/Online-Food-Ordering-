@@ -1,17 +1,19 @@
-import { assets } from "../assets/assets"
+
 
 const Contact = () => {
   return (
-    <div className="mb-[200px]">
-      <div className="w-full justify-center">
-        <img src={assets.contact_img} alt="" className="w-full h-[400px] opacity-1"/>
-        <div className="text-center">
-          <p className="text-white mt-[-235px] text-[70px]">We would love to hear from you!</p>
+    <div className="mb-[10px]">
+      <div className='bg-contactImg bg-cover bg-center h-[320px] relative'>
+        <div className="absolute flex flex-col w-full items-center bottom-[150px]">
+          <h2 className="font-[500] text-5xl text-white">Order your favourite food here</h2>
+          
+        
         </div>
+        
         
       </div>
 
-      <div className="mt-[200px] flex justify-start ">
+      <div className="mt-[40px] flex justify-start ">
         <form className="max-w-lg mx-auto p-4 space-y-4">
           <div className=" my-3">
             <select
