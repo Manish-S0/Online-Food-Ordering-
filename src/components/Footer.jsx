@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='footer bg-[#323232]  flex flex-col  gap-3 pt-[80px] text-white mt-[60px]'>
       <div className='footer-content flex justify-between gap-10 px-10 '>
         <div className=''>
-          <img src={assets.logo_color} alt="" className='w-[100px] cursor-pointer '/>
+          <img src={assets.logo} alt="" className='w-[100px] cursor-pointer '/>
           <p className='pt-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
           <div className='flex gap-3 py-2'>

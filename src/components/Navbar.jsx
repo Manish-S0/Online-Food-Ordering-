@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 import { Link } from 'react-router-dom';
-
+import { assets } from '../assets/assets';
 import { NavLink } from 'react-router-dom';
 import { IoMdSearch } from "react-icons/io";
 import { IoMdCart } from "react-icons/io";
@@ -13,7 +13,7 @@ const Navbar = ({setLogin}) => {
   return (
     <nav className='navbar flex justify-between items-center px-10 z-10'>
 
-      <Link to="/"><img src="src/assets/logo_color.png" alt="" className='w-[100px] h-[100px] logo' /> </Link>
+      <Link to="/"><img src={assets.logo} alt="" className='w-[120px] h-[70px] logo' /> </Link>
       <ul className='navbar-menu flex gap-6 text-[20px] font-[500]'>
         <NavLink to="/" className={({ isActive }) => isActive ? 'text-[#e06213]' : 'text-[#303b3b]'}>Home</NavLink>
         <NavLink to="/About" className={({ isActive }) => isActive ? 'text-[#e06213]' : 'text-[#303b3b]'}>About</NavLink>

@@ -1,4 +1,4 @@
-import basket_icon from './basket_icon.png'
+
 
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
@@ -56,19 +56,19 @@ import cross_icon from './cross_icon.png'
 import selector_icon from './selector_icon.png'
 import rating_starts from './rating_starts.png'
 import profile_icon from './profile_icon.png'
-import bag_icon from './bag_icon.png'
+
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
-import logo_color from './logo_color.png'
+import logo from './logo-black.png'
 import about_img from './about_img1.jpg'
 import inverted_comma from './inverted-commas.png'
 import first_res from './first_res.jpg'
 import contact_img from './contact_img.jpg'
 
 export const assets = {
-    logo_color,
+    logo,
     about_img,
-    basket_icon,
+    
     header_img,
     search_icon,
     rating_starts,
@@ -84,7 +84,7 @@ export const assets = {
     selector_icon,
     profile_icon,
     logout_icon,
-    bag_icon,
+    
     parcel_icon,
     inverted_comma,
     first_res,
