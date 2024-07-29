@@ -24,7 +24,7 @@ const About = () => {
       <div className="mt-[50px]">
         <div className="text-center justify-center  mx-auto px-4 max-w-[900px]">
           <h1 className="text-[49px] text-[#303b3b] font-bold mb-4">What’s In Store For The Future?</h1>
-          <p className="text-gray-600 text-lg">Swiggy has grand plans to be India’s most loved hyperlocal player. It aims to be the most accessible platform on the network - reimagining the meaning of convenience in the country through a variety of service offerings.</p>
+          <p className="text-gray-600 text-lg">Bhojan has grand plans to be India’s most loved hyperlocal player. It aims to be the most accessible platform on the network - reimagining the meaning of convenience in the country through a variety of service offerings.</p>
         </div>
         <hr className="my-20 h-[2px] bg-slate-300 border-none "/>
       </div>
