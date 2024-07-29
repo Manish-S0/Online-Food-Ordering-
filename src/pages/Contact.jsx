@@ -58,7 +58,7 @@ const Contact = () => {
               type="tel"
               id="mobile"
               required
-              placeholder="Mobile Number"
+              placeholder="Mobile Number*"
               className="block w-full p-2 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             />
           </div>
